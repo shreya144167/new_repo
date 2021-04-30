@@ -1,0 +1,16 @@
+git branch  #to list all branches
+git branch new_branch #creating new branch
+git checkout -b new_branch
+git add .
+git status
+git commit -m "initial commit"
+git checkout master
+git status
+git merge new_branch
+git add .
+git status
+git commit -m "master branch merged"
+git branch -d new_branch
+git branch -D new_branch 
+C
+git checkout new_branch #switching to new_
